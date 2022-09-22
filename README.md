@@ -17,7 +17,7 @@ Como contribuição própria, adicionei o conceito de variáveis CSS.
 
 ### Links
 
-- URL do site: [Formulário](#)
+- URL do site: [Responsividade](https://larissa-pinheiro.github.io/explorer-responsividade/)
 - Figma do projeto: [Acesse](https://www.figma.com/file/phZH78L1XpqQt0DKWHYzId/Explorer-Stage-03-Projeto-02-(Copy)?node-id=203%3A412)
 
 ### Desktop
