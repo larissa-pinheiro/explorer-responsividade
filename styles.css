@@ -1,0 +1,102 @@
+body {
+  background-color: var(--purple-100);
+
+  padding: 3.75rem 1.438rem 4.13rem;
+}
+
+main {
+  max-width: 20.62rem;
+
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 3rem;
+
+  margin-bottom: 0.94rem;
+}
+
+main p:first-child {
+  color: var(--purple-500);
+
+  line-height: 2rem;
+  letter-spacing: 0.188rem;
+  text-transform: uppercase;
+
+  margin-bottom: 1.063rem;
+}
+
+h1 + p {
+  color: var(--blue-800);
+
+  line-height: 2rem;
+
+  margin-bottom: 2rem;
+}
+
+a:hover {
+  color: var(--purple-500);
+
+  transition: 0.2s;
+}
+
+ul {
+  margin-top: 4.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+ul li {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  /* width: 16.06rem; */
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+ul li:first-child {
+  gap: 2.8rem;
+}
+
+ul li span {
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 5rem;
+
+  letter-spacing: -0.125rem;
+}
+
+/* media queries */
+
+@media screen and (min-width: 40em) {
+  body {
+    padding-top: 5rem;
+  }
+
+  main {
+    display: flex;
+
+    max-width: 63.75rem;
+    gap: 7.25rem;
+  }
+
+  .container {
+    max-width: 30.25rem;
+  }
+
+  ul li {
+    gap: 3.3rem;
+  }
+
+  ul li:first-child {
+    gap: 4rem;
+  }
+}
