@@ -1,0 +1,23 @@
+:root {
+  --white: #FFFFFF;
+
+  --blue-800: #0a0039a3;
+  --blue-900: #090039;
+  
+  --purple-100: #ECE9FD;
+  --purple-500: #7158EF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-decoration: none;
+
+  font-family: 'Epilogue', sans-serif;
+  font-size: 1rem;
+  color: var(--blue-900);
+  --webkit-font-smoothing: antialiased;
+}
